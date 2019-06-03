@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>test</title>
+	<title>Live2D</title>
 </head>
 <body>
 <script src="./lib/L2Dwidget.min.js"></script>
@@ -13,9 +13,7 @@ L2Dwidget.init({
     debug: !1,
     model: {
         scale: 2,
-        // jsonPath: "assets/asuna_33.model.json"
-		jsonPath: "assets/xxb.json"
-
+        jsonPath: "assets/asuna_33.model.json"
 	},
     display: {
         position: "right",
