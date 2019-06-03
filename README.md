@@ -1,3 +1,10 @@
+<html>
+<head>
+	<title>test</title>
+</head>
+<body>
+<script src="./lib/L2Dwidget.min.js"></script>
+<script>
 L2Dwidget.init({
     //pluginRootPath: "./live2dw/",
     pluginJsPath: "./lib/",
@@ -6,7 +13,9 @@ L2Dwidget.init({
     debug: !1,
     model: {
         scale: 2,
-        jsonPath: "assets/asuna_33.model.json"
+        // jsonPath: "assets/asuna_33.model.json"
+		jsonPath: "assets/xxb.json"
+
 	},
     display: {
         position: "right",
@@ -19,4 +28,7 @@ L2Dwidget.init({
     },
     log: !1
 })
+</script>
+</body>
+</html>
 
